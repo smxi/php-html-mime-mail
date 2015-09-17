@@ -55,7 +55,7 @@ text AND / OR html, using email boundaries, which creates a situation that is
 actually a negative for our needs. htmlMimeMail5 is also more complicated, and
 doesn't really do anything that we need. I may now and then pull pieces off of
 it and put them into 3.0 if they prove to be more reliable and do not change
-the functionality of the 3.0 release at all. As noted, smpt.php and RFC822.php
+the functionality of the 3.0 release at all. As noted, smtp.php and RFC822.php
 are from the 5.0 release.
 
 Please do not ask for support, I included the original example files from the
