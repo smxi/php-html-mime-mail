@@ -1,19 +1,28 @@
 htmlMimeMail3 is a drop in replacement for the original htmlMimeMail.
-
+=====================================================================
 NOTE TO USERS:
-Because this project serves primarily for our production purposes, I make no
-guarantees that the API will not change. If it does change, all changes will
-be noted in the changelog.txt and the API.txt documents. The most likely to
-be changed are the attachment and image add items.
+I am going to try to maintain the API of 2.5 as is for as long as possible.
 
+Any changes or updates will simply be mapped to translator functions, for 
+example, if I add the 5 attachment/image updates, the old methods will keep
+working, at least that's my plan. So ideally in the end, this class will work
+for both htmlMimeMail 2.5 AND 5.0 users. That is still not done.
+
+=====================================================================
+CODE STATUS - PHP VERSION SUPPORT
 The project has been forked, and updated to work without errors on current PHP
 versions. Tested and debugged on:
 
 PHP Version 5.6.12-1 (development, full error reporting on, warnings, etc)
 PHP Version 5.3.29 
 
+NOTE: There will be NO support for very old PHP versions, this project is all
+about keeping all deprecated or obselete PHP syntax out, not supporting it.
+This could should ideally always work on the latest PHP version, within reason.
+
 IMPORTANT: this version is not fully compatible with version 5 of htmlMimeMail.
-See the htmlMimeMail5 documentation page for a list of the differences. 
+See the htmlMimeMail5 documentation page for a list of the differences. See 
+above comments for API support plans.
 
 http://www.homer.com.au/webdoc/htmlMimeMail/htmlMimeMail5.htm
 
@@ -29,6 +38,7 @@ $mail->addAttachment(new fileAttachment('example.zip',
 
 See API.txt for the 2.5/3.0 syntax.
 
+=====================================================================
 WHY FORK htmlMimeMail 2.5 AND NOT 5.0?
 Because htmlMimeMail5 contained some updates and improvements that were actually
 undesirable for our application, I decided to fork the 2.5 version from 2002, 
@@ -67,6 +77,7 @@ There are bigger classes out there, more complicated, probably orders of
 magnititude larger, if you want one of those, I urge you to use them. This
 is a simple clean class, that does what it is supposed to do.
 
+=====================================================================
 BUGS FIXED:
 There were a few bugs in the original and version 5.0 that have not been 
 corrected. Version 3.0 corrects the following bugs:
@@ -84,6 +95,7 @@ _validateAtom()
 returned false for valid email: jones.fred <jones.fred@fred.com>
 because it was searching for a dot as an invalid character.
 
+=====================================================================
 DEVELOPERS:
 Please note: I have cleaned up the indentation, and the code, so if you want
 to contribute, please make sure to use the proper indentation (TABS), and
