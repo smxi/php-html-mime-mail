@@ -17,7 +17,7 @@ PHP Version 5.6.12-1 (development, full error reporting on, warnings, etc)
 PHP Version 5.3.29 
 
 NOTE: There will be NO support for very old PHP versions, this project is all
-about keeping all deprecated or obselete PHP syntax out, not supporting it.
+about keeping all deprecated or obsolete PHP syntax out, not supporting it.
 This could should ideally always work on the latest PHP version, within reason.
 
 IMPORTANT: this version is not fully compatible with version 5 of htmlMimeMail.
