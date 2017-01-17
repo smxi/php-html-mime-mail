@@ -85,7 +85,7 @@ corrected. Version 3.0 corrects the following bugs:
 1:
 http://www.phpclasses.org/discuss/package/32/thread/4/
 The _encode_header() functionremoves wanted whitespace when there are 
-Umlauts (äöüß) in the subject line. 
+Umlauts (Ã¤Ã¶Ã¼ÃŸ) in the subject line. 
 ------------------------------------
 2:
 I fixed another one, where the RFC spec was incorrectly implemented:
@@ -121,10 +121,7 @@ core requirements, will of course not be accepted.
 All patches should be tested in real production situations, not just local
 servers.
 
-Note: I was never any good at the old PHP class programming, so some of the
-code in this class is a bit of a mystery to me. Nor am I particularly good at
-current PHP class syntax and best practices, so if you spot something that
-seems wrong and which should be cleaned up, by all means, let me know, submit
-a patch, a pull request, etc, but always remember, the existing functionality
-can never be changed without prior discussion and approval because this is
-used commercially in a live setting.
+Note: If you spot something that seems wrong and which should be cleaned up, 
+by all means, let me know, submit a patch, a pull request, etc, but always 
+remember, the existing functionality can never be changed without prior 
+discussion and approval because this is used actively and heavily.
