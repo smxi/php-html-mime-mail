@@ -7,6 +7,12 @@ recommend as a robust, well maintained project.
 
 https://github.com/PHPMailer/PHPMailer
 
+If you want to adopt this project and see if you can figure out the 
+various issues with lack of DKIM/SPF support, and issues with SSL 
+SMTP while retaining the small footprint of this software, give it 
+a try, but I found that for modern emailer security, this codebase 
+is simply inadequate.
+
 =====================================================================
 NOTE TO USERS:
 I am going to try to maintain the API of 2.5 as is for as long as possible.
