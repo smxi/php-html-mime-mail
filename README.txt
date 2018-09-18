@@ -1,5 +1,13 @@
 htmlMimeMail3 is a drop in replacement for the original htmlMimeMail.
 =====================================================================
+PROJECT NO LONGER BEING MAINTAINED
+Because of non-reparable issue with sending secure emails with SMTP, 
+this project has been dropped in favor of PHPMaileir, which I 
+recommend as a robust, well maintained project.
+
+https://github.com/PHPMailer/PHPMailer
+
+=====================================================================
 NOTE TO USERS:
 I am going to try to maintain the API of 2.5 as is for as long as possible.
 
